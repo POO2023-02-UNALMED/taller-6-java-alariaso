@@ -29,8 +29,8 @@ public class Vehiculo {
         CantidadVehiculos++;
 
         Pais pais = fabricante.getPais();
-        paisesConteo.put(pais, paisesConteo.getOrDefault(pais,0) + 1);
-        fabricasConteo.put(fabricante, fabricasConteo.getOrDefault(fabricante,0) + 1);
+        paisesConteo.put(pais, paisesConteo.getOrDefault(pais, 0) + 1);
+        fabricasConteo.put(fabricante, fabricasConteo.getOrDefault(fabricante, 0) + 1);
     }
 
     public static int getCantidadVehiculos() {
